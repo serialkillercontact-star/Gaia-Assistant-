@@ -1,0 +1,24 @@
+{
+  "name": "Gaia — Personal AI Assistant",
+  "short_name": "Gaia",
+  "description": "Gajanan's personal AI assistant — voice commands, phone actions, intelligence.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#030b0f",
+  "theme_color": "#030b0f",
+  "lang": "en-IN",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Voice Command",
+      "short_name": "Speak",
+      "url": "/?voice=1",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
